@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+
+#searchBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    position: fixed;
+    left: 45vw;
+    width: 50vw;
+    height: 3rem;
+    margin-left: -25vw;
+}
+
+#navigationBar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    color: black;
+    height: 100%;
+    width: 20vw;
+}
+
+#newUserCTA {
+    position: fixed;
+    right: 0;
+    width: 30vw;
+    background-color: black;
+    color: white;
+}
+
+#trendsContainer {
+    padding-top: 3rem;
+    padding-left: 20vw;
+    width: 50vw;
+    background-color: lightgray;
+}

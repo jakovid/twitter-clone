@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavigationBar(){
     return(
-        <div>
+        <div id='navigationBar'>
             <div>Logo</div>
             <div>
                 <img src={require('../assets/images/Hashtag.png')} />  
