@@ -7,22 +7,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgray;
+    background-color: black;
     position: fixed;
     left: 45vw;
     width: 50vw;
     height: 3rem;
     margin-left: -25vw;
+    border-left: darkgray solid 1px;
+}
+
+#searchBar {
+    background-color: darkgray;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
 }
 
 #navigationBar {
     position: fixed;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    background-color: darkgray;
-    color: black;
+    background-color: black;
+    color: white;
     height: 100%;
     width: 20vw;
+    border-right: darkgray solid 1px
 }
 
 #newUserCTA {
@@ -31,11 +42,14 @@
     width: 30vw;
     background-color: black;
     color: white;
+    height: 100%;
+    border-left: darkgray solid 1px;
 }
 
 #trendsContainer {
     padding-top: 3rem;
-    padding-left: 20vw;
+    margin-left: 20vw;
     width: 50vw;
-    background-color: lightgray;
+    background-color: black;
+    color: white;
 }
